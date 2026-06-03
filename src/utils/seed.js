@@ -1,7 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 const User = require('../models/User');
-const Admin = require('../models/Admin');
+const Admin = require('../models/admin');
 const Book = require('../models/Book');
 
 const sampleBooks = [
