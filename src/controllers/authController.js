@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const Admin = require('../models/Admin');
+const Admin = require('../models/admin');
 const { AppError } = require('../middleware/errorHandler');
 
 // @desc    Register a new user
